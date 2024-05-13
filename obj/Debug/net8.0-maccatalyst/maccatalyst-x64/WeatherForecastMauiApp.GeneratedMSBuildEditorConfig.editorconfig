@@ -22,17 +22,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.App
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/Work/WeatherForecastMauiApp/AppShell.xaml]
+[D:/Work/WeatherForecastMauiApp/Pages/FavoritesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.AppShell.xaml
-build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
-build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.FavoritesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\FavoritesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\FavoritesPage.xaml
 
-[D:/Work/WeatherForecastMauiApp/MainPage.xaml]
+[D:/Work/WeatherForecastMauiApp/Pages/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
+
+[D:/Work/WeatherForecastMauiApp/Pages/MapPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.MapPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\MapPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\MapPage.xaml
+
+[D:/Work/WeatherForecastMauiApp/Pages/SettingsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.SettingsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
 
 [D:/Work/WeatherForecastMauiApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -40,8 +52,44 @@ build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Res
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
+[D:/Work/WeatherForecastMauiApp/Resources/Styles/DefaultTheme.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Resources.Styles.DefaultTheme.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\DefaultTheme.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\DefaultTheme.xaml
+
 [D:/Work/WeatherForecastMauiApp/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Work/WeatherForecastMauiApp/Views/CurrentWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.CurrentWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\CurrentWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\CurrentWidget.xaml
+
+[D:/Work/WeatherForecastMauiApp/Views/Next24HrWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.Next24HrWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Next24HrWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Next24HrWidget.xaml
+
+[D:/Work/WeatherForecastMauiApp/Views/Next7DWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.Next7DWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\Next7DWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\Next7DWidget.xaml
+
+[D:/Work/WeatherForecastMauiApp/Views/WidgetsPanel.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.WidgetsPanel.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WidgetsPanel.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WidgetsPanel.xaml
+
+[D:/Work/WeatherForecastMauiApp/Views/WindLiveWidget.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.WindLiveWidget.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WindLiveWidget.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WindLiveWidget.xaml

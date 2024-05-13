@@ -206,6 +206,14 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.Toolkit.Uwp.Notifications": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "PInvoke.User32": {
+              "target": "Package",
+              "version": "[0.7.104, )"
             }
           },
           "imports": [

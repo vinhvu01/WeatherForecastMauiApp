@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Microsoft.Maui.LifecycleEvents;
+using WeatherForecastMauiApp.Pages;
+using WeatherForecastMauiApp.ViewModels;
 
 namespace WeatherForecastMauiApp
 {
@@ -9,15 +11,39 @@ namespace WeatherForecastMauiApp
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
-                .ConfigureFonts(fonts =>
-                {
+                .ConfigureFonts(fonts => {
+                    fonts.AddFont("fa-solid-900.ttf", "FontAwesome");
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("OpenSans-SemiBold.ttf", "OpenSansSemiBold");
                 });
+            builder.ConfigureLifecycleEvents(lifecycle => {
+#if WINDOWS
+        //lifecycle
+        //    .AddWindows(windows =>
+        //        windows.OnNativeMessage((app, args) => {
+        //            if (WindowExtensions.Hwnd == IntPtr.Zero)
+        //            {
+        //                WindowExtensions.Hwnd = args.Hwnd;
+        //                WindowExtensions.SetIcon("Platforms/Windows/trayicon.ico");
+        //            }
+        //        }));
 
-#if DEBUG
-    		builder.Logging.AddDebug();
+            lifecycle.AddWindows(windows => windows.OnWindowCreated((del) => {
+                del.ExtendsContentIntoTitleBar = true;
+            }));
 #endif
+            });
+
+            var services = builder.Services;
+#if WINDOWS
+            services.AddSingleton<ITrayService, WinUI.TrayService>();
+            services.AddSingleton<INotificationService, WinUI.NotificationService>();
+#elif MACCATALYST
+            services.AddSingleton<ITrayService, MacCatalyst.TrayService>();
+            services.AddSingleton<INotificationService, MacCatalyst.NotificationService>();
+#endif
+            services.AddSingleton<HomeViewModel>();
+            services.AddSingleton<HomePage>();
 
             return builder.Build();
         }
