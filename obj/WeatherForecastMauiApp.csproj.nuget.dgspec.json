@@ -82,6 +82,10 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -125,6 +129,10 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -168,6 +176,10 @@
               "target": "Package",
               "version": "[8.0.4, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -210,6 +222,10 @@
             "Microsoft.Toolkit.Uwp.Notifications": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "PInvoke.User32": {
               "target": "Package",

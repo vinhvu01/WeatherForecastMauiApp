@@ -1,1 +1,0 @@
-D:\Work\WeatherForecastMauiApp\WeatherForecastMauiApp.csproj;x64
