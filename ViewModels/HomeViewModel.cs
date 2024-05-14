@@ -6,6 +6,11 @@ namespace WeatherForecastMauiApp.ViewModels;
 
 public class HomeViewModel : INotifyPropertyChanged
 {
+    private static readonly string UrlTimeLine = "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline";
+
+    private static readonly string ApiKey = "";
+    private RestService RestService { get; set; }
+
     public List<Forecast> Week { get; set; }
 
     public List<Forecast> Hours { get; set; }
@@ -49,6 +54,10 @@ public class HomeViewModel : INotifyPropertyChanged
 
     private void InitData()
     {
+        //RestService = new RestService();
+        //var url = $"{UrlTimeLine}/London, UK/next24hours?key={ApiKey}";
+        //var results = RestService.GetWeatherData(url).Result;
+
         Week = new List<Forecast>
             {
                 new Forecast
