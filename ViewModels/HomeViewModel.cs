@@ -53,27 +53,41 @@ public class HomeViewModel : INotifyPropertyChanged
         var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/next7days?key={GlobalConst.ApiKey}";
         var results = restService.GetWeatherData(url);
         Week = [];
-        foreach (var day in results.Days)
+        if (results != null)
         {
-            Week.Add(new Forecast
+            foreach (var day in results.Days)
             {
-                DateTime = DateTime.Parse(day.DateTime),
-                Day = new Day { Phrase = GetPhraseByDay(day.Description) },
-                Temperature = new Models.Temperature { Minimum = new Minimum { Unit = "F", Value = decimal.Parse(day.TempMin) }, Maximum = new Maximum { Unit = "F", Value = decimal.Parse(day.TempMax) } },
-            });
+                Week.Add(new Forecast
+                {
+                    DateTime = DateTime.Parse(day.DateTime),
+                    Day = new Day { Phrase = GetPhraseByDay(day.Description) },
+                    Temperature = new Models.Temperature
+                    {
+                        Minimum = new Minimum { Unit = "F", Value = decimal.Parse(day.TempMin) },
+                        Maximum = new Maximum { Unit = "F", Value = decimal.Parse(day.TempMax) }
+                    },
+                });
+            }
         }
 
         url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/next24hours?key={GlobalConst.ApiKey}";
         results = restService.GetWeatherData(url);
         Hours = [];
-        foreach (var hour in results.Days[1].Hours)
+        if (results != null)
         {
-            Hours.Add(new Forecast
+            foreach (var hour in results.Days[1].Hours)
             {
-                DateTime = DateTime.Parse(hour.DateTime),
-                Day = new Day { Phrase = GetPhraseByHour(hour.Conditions, DateTime.Parse(hour.DateTime)) },
-                Temperature = new Models.Temperature { Minimum = new Minimum { Unit = "F", Value = decimal.Parse(hour.Temp) }, Maximum = new Maximum { Unit = "F", Value = decimal.Parse(hour.FeelsLike) } }
-            });
+                Hours.Add(new Forecast
+                {
+                    DateTime = DateTime.Parse(hour.DateTime),
+                    Day = new Day { Phrase = GetPhraseByHour(hour.Conditions, DateTime.Parse(hour.DateTime)) },
+                    Temperature = new Models.Temperature
+                    {
+                        Minimum = new Minimum { Unit = "F", Value = decimal.Parse(hour.Temp) },
+                        Maximum = new Maximum { Unit = "F", Value = decimal.Parse(hour.FeelsLike) }
+                    }
+                });
+            }
         }
     }
 
@@ -89,6 +103,8 @@ public class HomeViewModel : INotifyPropertyChanged
                 return "fluent_weather_partly_cloudy";
             case "Clearing in the afternoon.":
                 return "fluent_weather_sunny_high_20_filled";
+            case "Cloudy skies throughout the day with storms possible.":
+                return "fluent_weather_thunderstorm_20_filled";
         }
 
         return "fluent_weather_sunny_20_filled";

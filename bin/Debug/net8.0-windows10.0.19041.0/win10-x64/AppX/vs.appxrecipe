@@ -30,25 +30,25 @@
     <AppXManifest Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-15T17:42:23.664</Modified>
+      <Modified>2024-05-15T18:47:37.816</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-15T17:42:23.429</Modified>
+      <Modified>2024-05-15T18:30:04.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.runtimeconfig.json">
       <PackagePath>WeatherForecastMauiApp.runtimeconfig.json</PackagePath>
-      <Modified>2024-05-14T18:53:39.942</Modified>
+      <Modified>2024-05-15T18:09:33.307</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.dll">
       <PackagePath>WeatherForecastMauiApp.dll</PackagePath>
-      <Modified>2024-05-15T17:42:22.245</Modified>
+      <Modified>2024-05-15T18:47:37.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherForecastMauiApp.exe</PackagePath>
-      <Modified>2024-05-15T17:42:22.343</Modified>
+      <Modified>2024-05-15T18:47:37.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
@@ -1260,7 +1260,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.deps.json">
       <PackagePath>WeatherForecastMauiApp.deps.json</PackagePath>
-      <Modified>2024-05-14T18:53:39.794</Modified>
+      <Modified>2024-05-15T18:09:33.256</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

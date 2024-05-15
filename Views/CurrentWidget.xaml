@@ -3,7 +3,7 @@
              Spacing="15"
              x:Class="WeatherForecastMauiApp.Views.CurrentWidget">
 
-    <Image
+    <Image x:Name="WeatherImage"
         WidthRequest="200"
         HeightRequest="200"
         HorizontalOptions="Center"
@@ -29,11 +29,11 @@
         <Border.StrokeShape>
             <RoundRectangle CornerRadius="60"/>
         </Border.StrokeShape>
-        <Label
-                    Text="Clear"
-                    TextColor="{StaticResource White}"
-                    HorizontalOptions="Center"
-                    FontSize="18"/>
+        <Label x:Name="Description"
+               Text="Clear"
+               TextColor="{StaticResource White}"
+               HorizontalOptions="Center" WidthRequest="300"
+               FontSize="9"/>
     </Border>
     
 

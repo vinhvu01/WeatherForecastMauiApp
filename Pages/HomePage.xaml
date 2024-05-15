@@ -34,8 +34,7 @@
                     AlignItems="Center"
                     AlignContent="Center"
                     JustifyContent="SpaceEvenly">
-                    <v:CurrentWidget
-                        WidthRequest="200" />
+                    <v:CurrentWidget/>
                     <v:WindLiveWidget 
                         x:Name="WindWidget"
                         WidthRequest="200" />
