@@ -9,15 +9,16 @@
         HorizontalOptions="Center"
         Aspect="AspectFit"
         Source="weather_partly_cloudy_day.png">
-        <!--<Image.Shadow>
-            <Shadow Brush="#2B0B98" Offset="20,20" Radius="20" Opacity="0.8"/>
-        </Image.Shadow>-->
     </Image>
 
-    <Label
-        Text="52℉"
-        HorizontalOptions="Center"
-        class="Title1" />
+    <Label x:Name="Location"
+           Text="HCM city, VN"
+           HorizontalOptions="Center"
+           class="Title1" />
+
+    <Label x:Name="Temp"
+           HorizontalOptions="Center"
+           class="Title1" />
 
     <Border BackgroundColor="{StaticResource Primary}"
             Stroke="Transparent"

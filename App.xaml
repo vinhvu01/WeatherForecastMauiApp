@@ -39,12 +39,6 @@
             <FlyoutItem Title="Favorites" Style="{StaticResource FavFlyout}">
                 <ShellContent ContentTemplate="{DataTemplate page:FavoritesPage}"/>
             </FlyoutItem>
-            <FlyoutItem Title="Map" Style="{StaticResource MapFlyout}">
-                <ShellContent ContentTemplate="{DataTemplate page:MapPage}"/>
-            </FlyoutItem>
-            <FlyoutItem Title="Settings" Route="settings" FlyoutItemIsVisible="False">
-                <ShellContent ContentTemplate="{DataTemplate page:SettingsPage}"/>
-            </FlyoutItem>
 
             <!-- Phone -->
             <TabBar x:Name="PhoneTabs">
@@ -54,15 +48,7 @@
                 <Tab Title="Favorites" Icon="tab_favorites.png">
                     <ShellContent ContentTemplate="{DataTemplate page:FavoritesPage}"/>
                 </Tab>
-                <Tab Title="Map" Icon="tab_map.png">
-                    <ShellContent ContentTemplate="{DataTemplate page:MapPage}"/>
-                </Tab>
-                <Tab Title="Settings" Icon="tab_settings.png">
-                    <ShellContent ContentTemplate="{DataTemplate page:SettingsPage}"/>
-                </Tab>
             </TabBar>
-
-
 
             <Shell.ItemTemplate>
                 <DataTemplate>

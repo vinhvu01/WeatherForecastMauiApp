@@ -34,18 +34,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pag
 build_metadata.AdditionalFiles.TargetPath = Pages\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\HomePage.xaml
 
-[D:/Work/WeatherForecastMauiApp/Pages/MapPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.MapPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\MapPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\MapPage.xaml
-
-[D:/Work/WeatherForecastMauiApp/Pages/SettingsPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Pages.SettingsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\SettingsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\SettingsPage.xaml
-
 [D:/Work/WeatherForecastMauiApp/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Resources.Styles.Colors.xaml

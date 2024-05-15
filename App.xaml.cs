@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics;
-using WeatherForecastMauiApp.Pages;
 
 namespace WeatherForecastMauiApp;
 
@@ -9,18 +8,15 @@ public partial class App : Application
     {
         InitializeComponent();
 
-        //App.Current.UserAppTheme = AppTheme.Dark;
-
         if (DeviceInfo.Idiom == DeviceIdiom.Phone)
             Shell.Current.CurrentItem = PhoneTabs;
 
-        //Routing.RegisterRoute(nameof(SettingsPage), typeof(SettingsPage));
     }
 
-    async void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
+    async void TapGestureRecognizer_Tapped(object sender, EventArgs e)
     {
         try { 
-            await Shell.Current.GoToAsync($"///settings");
+            await Shell.Current.GoToAsync("///settings");
         }catch (Exception ex) {
             Debug.WriteLine($"err: {ex.Message}");
         }
