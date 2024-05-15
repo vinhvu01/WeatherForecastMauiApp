@@ -30,6 +30,7 @@
                                WidthRequest="34"
                                HeightRequest="34"
                                HorizontalOptions="Center"/>
+                        
                         <BoxView
                             WidthRequest="1"
                             HeightRequest="1"
@@ -67,10 +68,6 @@
                                 Source="sm_solid_umbrella.png"
                                 WidthRequest="16"
                                 HeightRequest="16"
-                                VerticalOptions="Center"/>
-                            <Label
-                                Text="13%" 
-                                class="SubContent" 
                                 VerticalOptions="Center"/>
                         </StackLayout>
 

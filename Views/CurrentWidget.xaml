@@ -32,7 +32,7 @@
         <Label x:Name="Description"
                Text="Clear"
                TextColor="{StaticResource White}"
-               HorizontalOptions="Center" WidthRequest="300"
+               HorizontalOptions="Center" WidthRequest="500"
                FontSize="9"/>
     </Border>
     

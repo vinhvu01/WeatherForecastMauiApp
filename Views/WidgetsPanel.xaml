@@ -11,7 +11,7 @@
                 Stroke="Transparent"
                 BackgroundColor="{AppThemeBinding Light={StaticResource LightGray}, Dark={StaticResource Background_Mid}}">
                 <Border.StrokeShape>
-                    <RoundRectangle         
+                    <RoundRectangle
                         CornerRadius="8" />
                 </Border.StrokeShape>
                 <Grid
@@ -41,7 +41,7 @@
                 </Grid>
             </Border>
         </DataTemplate>
-        
+
         <DataTemplate x:Key="MetricBorderTemplate">
             <Border
                 HeightRequest="154"
@@ -79,7 +79,7 @@
         </DataTemplate>
     </Grid.Resources>
 
-     <CollectionView
+    <CollectionView
          Grid.Column="1"
          Margin="15" ItemSizingStrategy="MeasureFirstItem"
          ItemTemplate="{StaticResource MetricTemplate}">
@@ -89,23 +89,23 @@
                              VerticalItemSpacing="8"
                              Span="3"/>
         </CollectionView.ItemsLayout>
-            <CollectionView.ItemsSource>
-                <x:Array Type="{x:Type m:Metric}">
-                    <m:Metric Title="Humidity" Icon="humidity_icon.png" WeatherStation="Pond Elementary" Value="78%"/>
-                    <m:Metric Title="Rain" Icon="rain_icon.png" WeatherStation="Pond Elementary" Value="0.2in"/>
-                    <m:Metric Title="Chance of Rain" Icon="umbrella_icon.png" WeatherStation="Pond Elementary" Value="2%"/>
-                    <m:Metric Title="Wind" Icon="wind_icon.png" WeatherStation="Pond Elementary" Value="9mph"/>
-                    <m:Metric Title="Humidity" Icon="humidity_icon.png" WeatherStation="City Hall" Value="78%"/>
-                    <m:Metric Title="Rain" Icon="rain_icon.png" WeatherStation="Rockwood Reservation" Value="0.2in"/>
-                    <m:Metric Title="Chance of Rain" Icon="umbrella_icon.png" WeatherStation="County Library" Value="2%"/>
-                </x:Array>
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type m:Metric}">
+                <m:Metric Title="Humidity" Icon="humidity_icon.png" WeatherStation="Pond Elementary"/>
+                <m:Metric x:Name="WindGust" Title="WindGust" Icon="wind_icon.png" WeatherStation="Pond Elementary" />
+                <m:Metric x:Name="WindDir" Title="WindDir" Icon="wind_icon.png" WeatherStation="Pond Elementary"/>
+                <m:Metric x:Name="WindSpeed" Title="WindSpeed" Icon="wind_icon.png" WeatherStation="Pond Elementary"/>
+                <m:Metric Title="Humidity" Icon="humidity_icon.png" WeatherStation="City Hall" Value="78%"/>
+                <m:Metric Title="Rain" Icon="rain_icon.png" WeatherStation="Rockwood Reservation" Value="0.2in"/>
+                <m:Metric Title="Chance of Rain" Icon="umbrella_icon.png" WeatherStation="County Library" Value="2%"/>
+            </x:Array>
         </CollectionView.ItemsSource>
 
-            
-        </CollectionView>
-        <BoxView
+
+    </CollectionView>
+    <BoxView
             BackgroundColor="{StaticResource Background_Mid}"
             WidthRequest="1"
             HorizontalOptions="Start"/>
-    
+
 </Grid>

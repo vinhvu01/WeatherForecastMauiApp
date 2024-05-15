@@ -26,9 +26,8 @@
         Text="Winds"
         HorizontalOptions="Center"
         class="SubContent"/>
-    <Label
-        Text="14|25"
-        HorizontalOptions="Center"
-        class="Title"/>
+    <Label x:Name="Wind"
+           HorizontalOptions="Center"
+           class="Title"/>
 
 </VerticalStackLayout>

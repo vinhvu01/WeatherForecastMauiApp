@@ -9,8 +9,8 @@ public partial class CurrentWidget
         var datetime = DateTime.Now;
         var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
         var results = restService.GetWeatherData(url);
-        Temp.Text = $"{results.Days[0].Temp}℉";
-        Description.Text = results.Days[0].Description;
+        Temp.Text = $"{results.Days[0].Temp}℉"; 
+        Description.Text = results.Days[0].Description + " Suggestion today: Need umbrella";
         WeatherImage.Source = ImageSource.FromFile(GetImageFile(results.Days[0].Description));
     }
 

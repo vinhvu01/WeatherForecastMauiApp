@@ -7,7 +7,12 @@ public partial class WindLiveWidget:VerticalStackLayout
 
     public WindLiveWidget()
     {
-        InitializeComponent();            
+        InitializeComponent();
+        var restService = new RestService();
+        var datetime = DateTime.Now;
+        var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
+        var results = restService.GetWeatherData(url);
+        Wind.Text = $"{results.Days[0].WindSpeed}|{results.Days[0].Windgust}";
     }
 
     public void OnTapped(object sender, EventArgs e)

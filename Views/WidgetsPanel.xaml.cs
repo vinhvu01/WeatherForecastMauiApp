@@ -5,7 +5,17 @@ public partial class WidgetsPanel
     public WidgetsPanel()
     {
         InitializeComponent();
+        var restService = new RestService();
+        var datetime = DateTime.Now;
+        var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
+        var results = restService.GetWeatherData(url);
+        Humidity = $"{results.Days[0].Humidity}%";
+        //WindSpeed.Value = $"{results.Days[0].WindSpeed}mph";
+        //WindGust.Value = $"{results.Days[0].Windgust}mph";
+        //WindDir.Value = $"{results.Days[0].WindDir}mph";
     }
+
+    public string Humidity;
 
     async void OnTapped(object sender, EventArgs eventArgs)
     {
