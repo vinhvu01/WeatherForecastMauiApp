@@ -2,11 +2,10 @@
 
 namespace WeatherForecastMauiApp.Models;
 
-// Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse); 
 public class Minimum
 {
     [JsonPropertyName("value")]
-    public int Value { get; set; }
+    public decimal Value { get; set; }
 
     [JsonPropertyName("unit")]
     public string Unit { get; set; }
@@ -15,7 +14,7 @@ public class Minimum
 public class Maximum
 {
     [JsonPropertyName("value")]
-    public int Value { get; set; }
+    public decimal Value { get; set; }
 
     [JsonPropertyName("unit")]
     public string Unit { get; set; }

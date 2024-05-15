@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Work\\WeatherForecastMauiApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\services\\restservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:services\\restservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\models\\azuremodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:models\\azuremodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\pages\\homepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:pages\\homepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 47,
+          "SelectedChildIndex": 46,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestService.cs",
-              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Services\\RestService.cs",
-              "RelativeDocumentMoniker": "Services\\RestService.cs",
-              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Services\\RestService.cs",
-              "RelativeToolTip": "Services\\RestService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAMwBAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:25:56.665Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
-              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml.cs",
-              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAiwA0AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T19:24:22.396Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -232,15 +210,54 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Pages\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:10:38.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\HomePage.xaml",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "Pages\\HomePage.xaml",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-15T17:10:20.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AzureModels.cs",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Models\\AzureModels.cs",
+              "RelativeDocumentMoniker": "Models\\AzureModels.cs",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Models\\AzureModels.cs",
+              "RelativeToolTip": "Models\\AzureModels.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAxwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T17:05:16.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeViewModel.cs",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\ViewModels\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
               "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\ViewModels\\HomeViewModel.cs",
               "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAADgvzQAAAAFAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T18:58:34.715Z",
+              "WhenOpened": "2024-05-15T16:52:45.076Z",
               "EditorCaption": ""
             }
           ]

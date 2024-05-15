@@ -1,9 +1,5 @@
 ﻿using System.Diagnostics;
-using Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific;
-using WeatherForecastMauiApp.Services;
 using WeatherForecastMauiApp.ViewModels;
-using Application = Microsoft.Maui.Controls.Application;
-using WindowsConfiguration = Microsoft.Maui.Controls.PlatformConfiguration.Windows;
 
 namespace WeatherForecastMauiApp.Pages;
 
@@ -38,7 +34,7 @@ public partial class HomePage : ContentPage
                 new AppAction("add_location", "Add a Location", icon: "add_location")
             );
         }
-        catch (System.Exception ex)
+        catch (Exception ex)
         {
             Debug.WriteLine("App Actions not supported", ex);
         }

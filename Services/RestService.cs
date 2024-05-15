@@ -14,15 +14,15 @@ namespace WeatherForecastMauiApp.Services
 
         }
 
-        public async Task<WeatherData> GetWeatherData(string query)
+        public WeatherData GetWeatherData(string query)
         {
             WeatherData weatherData = null;
             try
             {
-                var response = await _client.GetAsync(query);
+                var response = _client.GetAsync(query).Result;
                 if (response.IsSuccessStatusCode)
                 {
-                    var content = await response.Content.ReadAsStringAsync();
+                    var content = response.Content.ReadAsStringAsync().Result;
                     var jsonSerializerOptions = new JsonSerializerSettings
                     {
                         NullValueHandling = NullValueHandling.Ignore

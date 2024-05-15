@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-14T19:27:16.092</Modified>
+      <Modified>2024-05-15T17:12:34.807</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-05-14T19:27:15.923</Modified>
+      <Modified>2024-05-15T17:08:39.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.runtimeconfig.json">
       <PackagePath>WeatherForecastMauiApp.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.dll">
       <PackagePath>WeatherForecastMauiApp.dll</PackagePath>
-      <Modified>2024-05-14T19:27:15.342</Modified>
+      <Modified>2024-05-15T17:12:34.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherForecastMauiApp.exe</PackagePath>
-      <Modified>2024-05-14T19:27:15.409</Modified>
+      <Modified>2024-05-15T17:12:34.195</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
