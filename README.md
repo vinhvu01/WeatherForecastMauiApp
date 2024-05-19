@@ -33,6 +33,7 @@ Window Machine
 ![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/c0c0b2ab-fb82-47c1-898e-825554be12de)
 
 Android 14.0
+
 ![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/14bf7ea6-ec96-4454-97de-120cbf77566f)
 
 ![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/82ca10f7-3b94-4d6a-bd56-0ba8dfac48b5)
