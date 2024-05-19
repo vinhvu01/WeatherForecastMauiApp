@@ -16,10 +16,10 @@ public partial class WidgetsPanel
         var results = restService.GetWeatherData(url);
         Metrics =
         [
-            new Metric { Title = "Humidity", Icon = "humidity_icon.png", Value = $"{results.Days[0].Humidity}%"},
-            new Metric { Title = "WindGust", Icon = "wind_icon.png", Value = $"{results.Days[0].Windgust}mph" },
-            new Metric { Title = "WindDir", Icon = "wind_icon.png", Value = $"{results.Days[0].WindSpeed}mph"},
-            new Metric { Title = "WindSpeed", Icon = "wind_icon.png", Value = $"{results.Days[0].WindDir}mph"}
+            new Metric { Title = "Humidity", Element = "Humidity", Icon = "humidity_icon.png", Value = $"{results.Days[0].Humidity}%"},
+            new Metric { Title = "WindGust",Element = "WindGust", Icon = "wind_icon.png", Value = $"{results.Days[0].Windgust}mph" },
+            new Metric { Title = "WindDir", Element = "WindDir", Icon = "wind_icon.png", Value = $"{results.Days[0].WindSpeed}mph"},
+            new Metric { Title = "WindSpeed", Element = "WindSpeed", Icon = "wind_icon.png", Value = $"{results.Days[0].WindDir}mph"}
         ];
 
         this.BindingContext = this;

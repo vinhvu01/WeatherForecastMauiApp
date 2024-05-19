@@ -59,18 +59,6 @@
                             HeightRequest="1"
                             Margin="{Binding Temperature.Minimum.Value, Converter={StaticResource MinTempOffsetConverter}}"
                             />
-                        <BoxView class="HRule"/>
-                        <StackLayout
-                            Orientation="Horizontal"
-                            HeightRequest="40"
-                            HorizontalOptions="Center">
-                            <Image
-                                Source="sm_solid_umbrella.png"
-                                WidthRequest="16"
-                                HeightRequest="16"
-                                VerticalOptions="Center"/>
-                        </StackLayout>
-
                     </VerticalStackLayout>
                 </DataTemplate>
             </BindableLayout.ItemTemplate>

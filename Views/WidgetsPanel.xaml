@@ -34,9 +34,8 @@
                         HorizontalOptions="Start"
                         Spacing="0"
                         VerticalOptions="End">
+                        <Label Text="{Binding Element}" class="SubContent"/>
                         <Label Text="{Binding Value}" class="LargeTitle"/>
-                        <Label Text="From" class="Subhead"/>
-                        <Label Text="{Binding WeatherStation}" class="SubContent"/>
                     </StackLayout>
                 </Grid>
             </Border>
@@ -70,9 +69,8 @@
                     <StackLayout HorizontalOptions="Start"
                                         Spacing="0"
                                         VerticalOptions="End">
+                        <Label Text="{Binding Element}" class="SubContent"/>
                         <Label Text="{Binding Value}" class="LargeTitle"/>
-                        <Label Text="From" class="Subhead"/>
-                        <Label Text="{Binding WeatherStation}" class="SubContent"/>
                     </StackLayout>
                 </Grid>
             </Border>

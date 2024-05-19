@@ -18,13 +18,6 @@
                         <Grid.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                         </Grid.GestureRecognizers>
-                        <Image Source="tab_settings.png"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center"
-                               WidthRequest="40"
-                               HeightRequest="40"
-                        />
-
                     </Grid>
                 </DataTemplate>
 

@@ -42,9 +42,6 @@
                                 Grid.Row="2"
                                 Spacing="10"
                                 VerticalOptions="End">
-                        <Image Source="solid_umbrella.png" VerticalOptions="Center"
-                                       WidthRequest="20" HeightRequest="20"/>
-                        <Label Text="13%" class="Small" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout

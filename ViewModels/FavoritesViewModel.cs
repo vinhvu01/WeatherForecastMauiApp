@@ -1,14 +1,12 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
-using WeatherForecastMauiApp;
-using Location = WeatherForecastMauiApp.Location;
 
 namespace WeatherForecastMauiApp.ViewModels;
 
 public class FavoritesViewModel : INotifyPropertyChanged
 {
-    IWeatherService weatherService = new WeatherService(null);
+    IWeatherService weatherService = new WeatherService();
 
     private ObservableCollection<Location> favorites;
     public ObservableCollection<Location> Favorites {
