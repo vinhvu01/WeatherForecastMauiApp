@@ -1,4 +1,6 @@
-﻿namespace WeatherForecastMauiApp;
+﻿using System.Drawing.Printing;
+
+namespace WeatherForecastMauiApp;
 
 public class WeatherResponse
 {
@@ -114,4 +116,6 @@ public class Location
     public string Icon { get; set; }
     public string WeatherStation { get; set; }
     public string Value { get; set; }
+
+    public string Humidity { get; set; }
 }

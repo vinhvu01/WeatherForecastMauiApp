@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "D:\\Work\\WeatherForecastMauiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\suggestiontoday.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\suggestiontoday.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\suggestiontoday.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\suggestiontoday.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\resources\\styles\\defaulttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:resources\\styles\\defaulttheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -199,14 +215,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\ViewModels\\HomeViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\HomeViewModel.cs",
-              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\ViewModels\\HomeViewModel.cs",
-              "RelativeToolTip": "ViewModels\\HomeViewModel.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFoAAAAJAAAA",
+              "Title": "SuggestionToday.xaml.cs",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\SuggestionToday.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\SuggestionToday.xaml.cs",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\SuggestionToday.xaml.cs",
+              "RelativeToolTip": "Views\\SuggestionToday.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-19T08:10:47.012Z",
+              "WhenOpened": "2024-05-19T09:03:49.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SuggestionToday.xaml",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\SuggestionToday.xaml",
+              "RelativeDocumentMoniker": "Views\\SuggestionToday.xaml",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\SuggestionToday.xaml",
+              "RelativeToolTip": "Views\\SuggestionToday.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T09:02:19.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultTheme.xaml",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Resources\\Styles\\DefaultTheme.xaml",
+              "RelativeDocumentMoniker": "Resources\\Styles\\DefaultTheme.xaml",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Resources\\Styles\\DefaultTheme.xaml",
+              "RelativeToolTip": "Resources\\Styles\\DefaultTheme.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T09:01:22.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Next24HrWidget.xaml",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\Next24HrWidget.xaml",
+              "RelativeDocumentMoniker": "Views\\Next24HrWidget.xaml",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\Next24HrWidget.xaml",
+              "RelativeToolTip": "Views\\Next24HrWidget.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T09:00:27.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CurrentWidget.xaml",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\CurrentWidget.xaml",
+              "RelativeDocumentMoniker": "Views\\CurrentWidget.xaml",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\CurrentWidget.xaml",
+              "RelativeToolTip": "Views\\CurrentWidget.xaml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-19T08:59:46.764Z",
               "EditorCaption": ""
             }
           ]

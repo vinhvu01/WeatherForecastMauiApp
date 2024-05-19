@@ -51,7 +51,7 @@
                                     VerticalOptions="End">
                         <Image Source="solid_humidity.png" VerticalOptions="Center"
                                        WidthRequest="20" HeightRequest="20"/>
-                        <Label Text="45%" class="Small" VerticalOptions="Center"/>
+                        <Label Text="{Binding Humidity}" class="Small" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
                 </Grid>
             </Frame>
@@ -100,9 +100,6 @@
                                 Grid.Row="2"
                                 Spacing="10"
                                 VerticalOptions="End">
-                        <Image Source="solid_umbrella.png" VerticalOptions="Center"
-                                       WidthRequest="20" HeightRequest="20"/>
-                        <Label Text="13%" class="Small" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
 
                     <HorizontalStackLayout
@@ -112,7 +109,7 @@
                                     VerticalOptions="End">
                         <Image Source="solid_humidity.png" VerticalOptions="Center"
                                        WidthRequest="20" HeightRequest="20"/>
-                        <Label Text="45%" class="Small" VerticalOptions="Center"/>
+                        <Label Text="{Binding Humidity}" class="Small" VerticalOptions="Center"/>
                     </HorizontalStackLayout>
                 </Grid>
             </Border>

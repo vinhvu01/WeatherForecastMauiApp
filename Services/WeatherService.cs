@@ -14,7 +14,8 @@ public class WeatherService : IWeatherService
             Name = results.Address,
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
-            WeatherStation = "Vietnam", Value = results.Days[0].Temp
+            WeatherStation = "Vietnam", Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/Tokyo, Japan/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -25,7 +26,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Japan",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/New York, NY/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -36,7 +38,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "USA",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/Washington, DC/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -47,7 +50,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "USA",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/Berlin, Germany/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -58,7 +62,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Germany",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/London, England/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -69,7 +74,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "UK",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/Paris, France/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -80,7 +86,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "France",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         url = $"{GlobalConst.UrlTimeLine}/Sydney, Australia/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
@@ -91,7 +98,8 @@ public class WeatherService : IWeatherService
             Icon = GetImageFile(results.Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Australia",
-            Value = results.Days[0].Temp
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
         });
 
         return Task.FromResult(locations.Where(l => l.Name.Contains(query)));

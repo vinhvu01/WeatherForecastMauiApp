@@ -1,17 +1,17 @@
 ﻿namespace WeatherForecastMauiApp.Views;
 
-public partial class CurrentWidget
+public partial class SuggestionToday
 {
-    public CurrentWidget()
+    public SuggestionToday()
     {
         InitializeComponent();
         var restService = new RestService();
         var datetime = DateTime.Now;
         var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
         var results = restService.GetWeatherData(url);
-        Temp.Text = $"{results.Days[0].Temp}℉"; 
-        Description.Text = results.Days[0].Description;
-        WeatherImage.Source = ImageSource.FromFile(GetImageFile(results.Days[0].Description));
+        //Temp.Text = $"{results.Days[0].Temp}℉"; 
+        //Description.Text = results.Days[0].Description;
+        //WeatherImage.Source = ImageSource.FromFile(GetImageFile(results.Days[0].Description));
     }
 
     private string GetImageFile(string description)

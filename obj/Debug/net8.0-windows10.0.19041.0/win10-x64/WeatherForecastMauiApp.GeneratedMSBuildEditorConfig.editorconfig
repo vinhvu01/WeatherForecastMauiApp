@@ -66,6 +66,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Vie
 build_metadata.AdditionalFiles.TargetPath = Views\Next7DWidget.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Next7DWidget.xaml
 
+[D:/Work/WeatherForecastMauiApp/Views/SuggestionToday.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.SuggestionToday.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SuggestionToday.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SuggestionToday.xaml
+
 [D:/Work/WeatherForecastMauiApp/Views/WidgetsPanel.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = WeatherForecastMauiApp.Views.WidgetsPanel.xaml
