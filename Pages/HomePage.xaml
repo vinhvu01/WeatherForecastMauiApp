@@ -24,13 +24,13 @@
         <!-- Main content -->
         <ScrollView Grid.Column="0">
             <VerticalStackLayout
-                Padding="{OnIdiom Phone='0,50',Default='0,50'}"
-                Spacing="{OnIdiom Phone=25,Default=50}">
+                Padding="{OnIdiom Phone='0,30',Default='0,30'}"
+                Spacing="{OnIdiom Phone=25,Default=30}">
                 
                 <!-- Top widgets -->
                 <FlexLayout
                     IsVisible="{OnIdiom Phone=False, Default=True}"
-                    MinimumHeightRequest="360"
+                    MinimumHeightRequest="350"
                     AlignItems="Center"
                     AlignContent="Center"
                     JustifyContent="SpaceEvenly">
@@ -40,6 +40,8 @@
                         WidthRequest="200" />
                     
                 </FlexLayout>
+
+                <v:SuggestionToday />
 
                 <v:CurrentWidget
                     IsVisible="{OnIdiom Phone=True, Default=False}"/>

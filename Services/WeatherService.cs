@@ -102,6 +102,30 @@ public class WeatherService : IWeatherService
             Humidity = $"{results.Days[0].Humidity}%"
         });
 
+        url = $"{GlobalConst.UrlTimeLine}/Vancouver, Canada/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
+        results = restService.GetWeatherData(url);
+        locations.Add(new Location
+        {
+            Name = results.Address,
+            Icon = GetImageFile(results.Description),
+            Coordinate = new Coordinate(results.Latitude, results.Longitude),
+            WeatherStation = "Canada",
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
+        });
+
+        url = $"{GlobalConst.UrlTimeLine}/Wellington, NewZealand/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
+        results = restService.GetWeatherData(url);
+        locations.Add(new Location
+        {
+            Name = results.Address,
+            Icon = GetImageFile(results.Days[0].Description),
+            Coordinate = new Coordinate(results.Latitude, results.Longitude),
+            WeatherStation = "NewZealand",
+            Value = results.Days[0].Temp,
+            Humidity = $"{results.Days[0].Humidity}%"
+        });
+
         return Task.FromResult(locations.Where(l => l.Name.Contains(query)));
     }
 

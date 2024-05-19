@@ -127,13 +127,8 @@
                     Spacing="18"
                     Padding="{OnIdiom Phone='15,15,15,15', Default='25,25,25,0'}"
                     >
-                    <Image
-                        Source="search_icon.png"
-                        VerticalOptions="Center"
-                        HeightRequest="22"
-                        WidthRequest="22"/>
                     <Label
-                        Text="Search"
+                        Text="Weather in top 10 cities"
                         TextColor="#637989"
                         FontSize="18"
                         WidthRequest="240"

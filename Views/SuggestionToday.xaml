@@ -1,23 +1,18 @@
 ﻿<VerticalStackLayout xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             Spacing="15"
+             Spacing="5"
              x:Class="WeatherForecastMauiApp.Views.SuggestionToday">
 
-    <Border BackgroundColor="{StaticResource Tertiary}"
-            Stroke="Transparent"
-            StrokeThickness="1"
-            HorizontalOptions="Center"
-            Padding="15,4"
-            >
-        <Border.StrokeShape>
-            <RoundRectangle CornerRadius="60"/>
-        </Border.StrokeShape>
-        <Label x:Name="Suggestion"
-               Text="Clear"
-               TextColor="{StaticResource White}"
-               HorizontalOptions="Center" WidthRequest="1500"
-               FontSize="9"/>
-    </Border>
-    
+    <Label x:Name="Title" Padding="{OnIdiom Phone='0,8',Default='0,8'}"
+           TextColor="{StaticResource Black}"
+           Text ="SUGGESTION TODAY:"
+           HorizontalOptions="Center"
+           FontSize="12"/>
+
+    <Label x:Name="Suggestion" Padding="{OnIdiom Phone='0,8',Default='0,8'}" 
+           Margin="{OnIdiom Phone='35,0',Default='60,0'}"
+           TextColor="{StaticResource Error}"
+           HorizontalOptions="Center" WidthRequest="900"
+           FontSize="15"/>
 
 </VerticalStackLayout>
