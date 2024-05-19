@@ -10,7 +10,7 @@
            FontSize="12"/>
 
     <Label x:Name="Suggestion" Padding="{OnIdiom Phone='0,8',Default='0,8'}" 
-           Margin="{OnIdiom Phone='35,0',Default='60,0'}"
+           Margin="{OnIdiom Phone='50,0',Default='60,0'}"
            TextColor="{StaticResource Error}"
            HorizontalOptions="Center" WidthRequest="900"
            FontSize="15"/>
