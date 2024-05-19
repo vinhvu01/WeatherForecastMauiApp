@@ -3,30 +3,38 @@
   "WorkspaceRootPath": "D:\\Work\\WeatherForecastMauiApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\widgetspanel.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\widgetspanel.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\widgetspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\widgetspanel.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\models\\metric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:models\\metric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:models\\weatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\next24hrwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\views\\widgetspanel.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\widgetspanel.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\AppData\\Local\\Temp\\VSGeneratedDocuments\\a8989bf0-f7dd-1184-2643-d1b1f10ba29a\\Views_WidgetsPanel.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\currentwidget.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\globalconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:globalconst.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\models\\metric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:models\\metric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\views\\currentwidget.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\currentwidget.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|d:\\work\\weatherforecastmauiapp\\views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|D:\\Work\\WeatherForecastMauiApp\\views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{9BE8B71B-A95C-4165-A057-D117898D9C93}|WeatherForecastMauiApp.csproj|solutionrelative:views\\currentwidget.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -37,7 +45,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 217,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 53,
           "Children": [
             {
               "$type": "Document",
@@ -47,7 +55,7 @@
               "RelativeDocumentMoniker": "Views\\WidgetsPanel.xaml",
               "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\WidgetsPanel.xaml",
               "RelativeToolTip": "Views\\WidgetsPanel.xaml",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAqwGMAAABLAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAiwEMAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-15T18:40:57.589Z",
               "IsPinned": true,
@@ -55,16 +63,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "WidgetsPanel.xaml.cs",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\WidgetsPanel.xaml.cs",
               "RelativeDocumentMoniker": "Views\\WidgetsPanel.xaml.cs",
               "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Views\\WidgetsPanel.xaml.cs",
               "RelativeToolTip": "Views\\WidgetsPanel.xaml.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wBYAAAAAAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwBIAAABsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T19:17:26.772Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherData.cs",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Models\\WeatherData.cs",
+              "RelativeDocumentMoniker": "Models\\WeatherData.cs",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\Models\\WeatherData.cs",
+              "RelativeToolTip": "Models\\WeatherData.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAwwEMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T07:27:00.538Z",
               "EditorCaption": ""
             },
             {
@@ -249,6 +270,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GlobalConst.cs",
+              "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\GlobalConst.cs",
+              "RelativeDocumentMoniker": "GlobalConst.cs",
+              "ToolTip": "D:\\Work\\WeatherForecastMauiApp\\GlobalConst.cs",
+              "RelativeToolTip": "GlobalConst.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T01:07:41.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Views_WidgetsPanel.xaml.sg.cs [generated]",
               "DocumentMoniker": "C:\\Users\\Admin\\AppData\\Local\\Temp\\VSGeneratedDocuments\\a8989bf0-f7dd-1184-2643-d1b1f10ba29a\\Views_WidgetsPanel.xaml.sg.cs",
@@ -261,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Metric.cs",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Models\\Metric.cs",
               "RelativeDocumentMoniker": "Models\\Metric.cs",
@@ -269,12 +303,11 @@
               "RelativeToolTip": "Models\\Metric.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:26:34.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:26:34.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "CurrentWidget.xaml.cs",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\CurrentWidget.xaml.cs",
               "RelativeDocumentMoniker": "Views\\CurrentWidget.xaml.cs",
@@ -282,12 +315,11 @@
               "RelativeToolTip": "Views\\CurrentWidget.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-15T19:19:43.221Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:19:43.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CurrentWidget.xaml",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\CurrentWidget.xaml",
               "RelativeDocumentMoniker": "Views\\CurrentWidget.xaml",
@@ -295,12 +327,11 @@
               "RelativeToolTip": "Views\\CurrentWidget.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-15T19:19:41.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:19:41.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Next24HrWidget.xaml",
               "DocumentMoniker": "D:\\Work\\WeatherForecastMauiApp\\Views\\Next24HrWidget.xaml",
               "RelativeDocumentMoniker": "Views\\Next24HrWidget.xaml",

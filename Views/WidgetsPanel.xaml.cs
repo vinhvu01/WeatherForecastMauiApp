@@ -1,7 +1,12 @@
+using System.Collections.ObjectModel;
+using WeatherForecastMauiApp.Models;
+
 namespace WeatherForecastMauiApp.Views;
 
 public partial class WidgetsPanel
 {
+    public ObservableCollection<Metric> Metrics { get; set; }
+
     public WidgetsPanel()
     {
         InitializeComponent();
@@ -9,10 +14,15 @@ public partial class WidgetsPanel
         var datetime = DateTime.Now;
         var url = $"{GlobalConst.UrlTimeLine}/{GlobalConst.CurrentLocation}/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
         var results = restService.GetWeatherData(url);
-        Humidity = $"{results.Days[0].Humidity}%";
-        //WindSpeed.Value = $"{results.Days[0].WindSpeed}mph";
-        //WindGust.Value = $"{results.Days[0].Windgust}mph";
-        //WindDir.Value = $"{results.Days[0].WindDir}mph";
+        Metrics =
+        [
+            new Metric { Title = "Humidity", Icon = "humidity_icon.png", Value = $"{results.Days[0].Humidity}%"},
+            new Metric { Title = "WindGust", Icon = "wind_icon.png", Value = $"{results.Days[0].Windgust}mph" },
+            new Metric { Title = "WindDir", Icon = "wind_icon.png", Value = $"{results.Days[0].WindSpeed}mph"},
+            new Metric { Title = "WindSpeed", Icon = "wind_icon.png", Value = $"{results.Days[0].WindDir}mph"}
+        ];
+
+        this.BindingContext = this;
     }
 
     public string Humidity;
