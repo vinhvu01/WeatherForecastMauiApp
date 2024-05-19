@@ -11,7 +11,7 @@ Documentation for the Weather API can be found at https://www.visualcrossing.com
 Weather data is sourced from Visual Crossing Weather Data (see https://www.visualcrossing.com/weather-data)
 
 Done:
-- Weather displayed current time.
+- Weather displays at the current time: show temperature, wind speed, wind gust, wind dir, location and humidity.
 - Weather forecast next 24 hours and the next 7 days.
 - Suggestion for today
 - Weather in top 10 cities.
