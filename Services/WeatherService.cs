@@ -12,7 +12,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Vietnam", Value = results.Days[0].Temp,
             Humidity = $"{results.Days[0].Humidity}%"
@@ -23,7 +23,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Japan",
             Value = results.Days[0].Temp,
@@ -35,7 +35,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "USA",
             Value = results.Days[0].Temp,
@@ -47,7 +47,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "USA",
             Value = results.Days[0].Temp,
@@ -59,7 +59,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Germany",
             Value = results.Days[0].Temp,
@@ -71,7 +71,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "UK",
             Value = results.Days[0].Temp,
@@ -83,7 +83,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "France",
             Value = results.Days[0].Temp,
@@ -95,7 +95,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Australia",
             Value = results.Days[0].Temp,
@@ -107,7 +107,7 @@ public class WeatherService : IWeatherService
         locations.Add(new Location
         {
             Name = results.Address,
-            Icon = GetImageFile(results.Description),
+            Icon = GetImageFile(results.Days[0].Description),
             Coordinate = new Coordinate(results.Latitude, results.Longitude),
             WeatherStation = "Canada",
             Value = results.Days[0].Temp,
@@ -143,6 +143,8 @@ public class WeatherService : IWeatherService
                 return "fluent_weather_sunny_high_20_filled.png";
             case "Cloudy skies throughout the day with storms possible.":
                 return "fluent_weather_thunderstorm_20_filled.png";
+            case "Similar temperatures continuing with no rain expected.":
+                return "fluent_weather_cloudy_20_filled.svg";
         }
 
         return "fluent_weather_sunny_20_filled.png";

@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WeatherForecastMauiApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dcc9d3c19564fd56a2bb9f8093bbdf023f4e82c7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b5c5aaab80ad736cf7160821f1ca3d8468f20c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("WeatherForecastMauiApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WeatherForecastMauiApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
