@@ -83,6 +83,17 @@ public class WeatherService : IWeatherService
             Value = results.Days[0].Temp
         });
 
+        url = $"{GlobalConst.UrlTimeLine}/Sydney, Australia/{datetime:yyyy-MM-ddTHH:mm:ss}?key={GlobalConst.ApiKey}";
+        results = restService.GetWeatherData(url);
+        locations.Add(new Location
+        {
+            Name = results.Address,
+            Icon = GetImageFile(results.Description),
+            Coordinate = new Coordinate(results.Latitude, results.Longitude),
+            WeatherStation = "Australia",
+            Value = results.Days[0].Temp
+        });
+
         return Task.FromResult(locations.Where(l => l.Name.Contains(query)));
     }
 

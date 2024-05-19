@@ -30,7 +30,7 @@
     <AppXManifest Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-05-19T07:56:22.629</Modified>
+      <Modified>2024-05-19T08:15:44.209</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\WeatherForecastMauiApp.dll">
       <PackagePath>WeatherForecastMauiApp.dll</PackagePath>
-      <Modified>2024-05-19T07:56:21.255</Modified>
+      <Modified>2024-05-19T08:01:14.791</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>WeatherForecastMauiApp.exe</PackagePath>
-      <Modified>2024-05-19T07:56:21.478</Modified>
+      <Modified>2024-05-19T08:01:14.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\appiconfgSplashScreen.scale-100.png">
       <PackagePath>appiconfgSplashScreen.scale-100.png</PackagePath>
@@ -516,23 +516,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-100.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.605</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-125.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.607</Modified>
+      <Modified>2024-05-19T08:09:41.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-150.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.610</Modified>
+      <Modified>2024-05-19T08:09:41.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-200.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.613</Modified>
+      <Modified>2024-05-19T08:09:41.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy.scale-400.png">
       <PackagePath>fluent_weather_partly_cloudy.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.617</Modified>
+      <Modified>2024-05-19T08:09:41.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_partly_cloudy_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_partly_cloudy_night_20_filled.scale-100.png</PackagePath>
@@ -556,43 +556,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.621</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.622</Modified>
+      <Modified>2024-05-19T08:09:41.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.624</Modified>
+      <Modified>2024-05-19T08:09:41.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.625</Modified>
+      <Modified>2024-05-19T08:09:41.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_20_filled.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.643</Modified>
+      <Modified>2024-05-19T08:09:41.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.623</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-125.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.624</Modified>
+      <Modified>2024-05-19T08:09:41.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-150.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.625</Modified>
+      <Modified>2024-05-19T08:09:41.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-200.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.628</Modified>
+      <Modified>2024-05-19T08:09:41.910</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_day_20_filled.scale-400.png">
       <PackagePath>fluent_weather_rain_showers_day_20_filled.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.631</Modified>
+      <Modified>2024-05-19T08:09:41.933</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_rain_showers_night_20_filled.scale-100.png">
       <PackagePath>fluent_weather_rain_showers_night_20_filled.scale-100.png</PackagePath>
@@ -736,43 +736,43 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.634</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-125.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.635</Modified>
+      <Modified>2024-05-19T08:09:41.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-150.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.638</Modified>
+      <Modified>2024-05-19T08:09:41.900</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-200.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.640</Modified>
+      <Modified>2024-05-19T08:09:41.904</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_20_filled.scale-400.png">
       <PackagePath>fluent_weather_sunny_20_filled.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.644</Modified>
+      <Modified>2024-05-19T08:09:41.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.634</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-125.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.636</Modified>
+      <Modified>2024-05-19T08:09:41.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-150.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.637</Modified>
+      <Modified>2024-05-19T08:09:41.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-200.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.640</Modified>
+      <Modified>2024-05-19T08:09:41.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_high_20_filled.scale-400.png">
       <PackagePath>fluent_weather_sunny_high_20_filled.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.644</Modified>
+      <Modified>2024-05-19T08:09:41.928</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_sunny_low_20_filled.scale-100.png">
       <PackagePath>fluent_weather_sunny_low_20_filled.scale-100.png</PackagePath>
@@ -796,23 +796,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-100.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-100.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.633</Modified>
+      <Modified>2024-05-19T08:09:41.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-125.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-125.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.635</Modified>
+      <Modified>2024-05-19T08:09:41.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-150.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-150.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.637</Modified>
+      <Modified>2024-05-19T08:09:41.902</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-200.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-200.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.639</Modified>
+      <Modified>2024-05-19T08:09:41.907</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fluent_weather_thunderstorm_20_filled.scale-400.png">
       <PackagePath>fluent_weather_thunderstorm_20_filled.scale-400.png</PackagePath>
-      <Modified>2024-05-14T18:28:45.643</Modified>
+      <Modified>2024-05-19T08:09:41.927</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Work\WeatherForecastMauiApp\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\humidity_icon.scale-100.png">
       <PackagePath>humidity_icon.scale-100.png</PackagePath>
