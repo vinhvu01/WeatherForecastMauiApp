@@ -27,7 +27,9 @@ Note:
 Need to fill the API key of the Weather API in the class GlobalConst.cs
 
 Demo images
+
 Window Machine
+
 ![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/c1136232-8216-4a4b-b836-31f924b68813)
 
 ![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/c0c0b2ab-fb82-47c1-898e-825554be12de)
