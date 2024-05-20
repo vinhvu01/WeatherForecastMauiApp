@@ -1,6 +1,6 @@
 # WeatherForecastMauiApp
 
-The following is an app written in the MAUL library for educational purposes. It calls Weather API (www.visualcrossing.com) to get weather forecast information for specified cities, and locations.
+The following is an app written in the MAUI (Multi-platform App UI) library for educational purposes. It calls Weather API (www.visualcrossing.com) to get weather forecast information for specified cities, and locations.
 
 The Visual Crossing Weather API provides developers with weather data for any programming language or script. The Weather API provides instant and scalable access to historical weather reports and forecast data in an easy-to-use JSON or text format. See https://www.visualcrossing.com/weather-api for more information and additional documentation, sample code, and use cases.
 
@@ -12,7 +12,7 @@ Weather data is sourced from Visual Crossing Weather Data (see https://www.visua
 
 Done:
 - Weather displays at the current time: show temperature, wind speed, wind gust, wind dir, location and humidity.
-- Weather forecast next 24 hours and the next 7 days.
+- Weather forecast for the next 24 hours and the next 7 days.
 - Suggestion for today: Every day the application will display a short suggestion for the user based on the weather forecast for today. For example: if it's raining the suggestion could be "Bring an umbrella.."
 - Weather in top 10 cities.
 
