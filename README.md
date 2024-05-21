@@ -25,18 +25,3 @@ Used:
 
 Note:
 Need to fill the API key of the Weather API in the class GlobalConst.cs
-
-Demo images
-
-Window Machine
-
-![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/c1136232-8216-4a4b-b836-31f924b68813)
-
-![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/c0c0b2ab-fb82-47c1-898e-825554be12de)
-
-Android 14.0
-
-![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/14bf7ea6-ec96-4454-97de-120cbf77566f)
-
-![image](https://github.com/vinhvu01/WeatherForecastMauiApp/assets/53502920/82ca10f7-3b94-4d6a-bd56-0ba8dfac48b5)
-
